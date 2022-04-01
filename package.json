@@ -1,13 +1,17 @@
 {
-  "name": "eric-knowledge",
+  "name": "Eric",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Eric's Blog",
+  "repository": "https://github.com/LYF620/eric-knowledge",
+  "author": "Eric",
   "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.9.7"
-  },
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vuepress dev .",
+    "start": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "dependencies": {
+    "vuepress": "2.0.0-beta.33",
+    "vuepress-theme-reco": "2.0.0-beta.1"
   }
 }
