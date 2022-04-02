@@ -5,7 +5,11 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: 'Eric的前端知识星球',
   description: 'Eric的前端知识星球',
   theme: 'reco',
+  head: [
+    ['link', { rel: 'icon', href: 'https://www.yfcloud.site/medias/logo.png' }],
+  ],
   themeConfig: {
+    head: './public/logo.png',
     themePath: '../vuepress-theme-reco',
     style: '@vuepress-reco/style-default',
     logo: '/logo.png',
